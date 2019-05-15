@@ -1,0 +1,34 @@
+.turn > div {
+  height: 400px;
+}
+
+.turn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.authorimage {
+  max-height: 100%;
+}
+.answer {
+  border-left: 3px solid #0c5460;
+  cursor: pointer;
+}
+.answer:hover {
+  background-color: var(--info);
+}
+.answer-right {
+  border-left: 3px solid #28a745;
+}
+.answer-wrong {
+  border-left: 3px solid #dc3545;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
